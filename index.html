@@ -7,7 +7,7 @@
         <meta name="author" content="" />
         <title>Heloísa Saldanha</title>
         <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico"/>
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
         <!-- Google fonts-->
@@ -29,6 +29,8 @@
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#portfolio">Portfolio</a></li>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about">About</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#skills">Skills</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#experiences">Experiences</a></li>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">Contact</a></li>
                     </ul>
                 </div>
@@ -38,7 +40,7 @@
         <header class="masthead bg-primary text-white text-center">
             <div class="container d-flex align-items-center flex-column">
                 <!-- Masthead Avatar Image-->
-                <img class="masthead-avatar mb-5" src="assets/img/1620075127823.jpg" alt="..." style="border-radius: 50%;"/>
+                <img class="masthead-avatar mb-5" src="assets/img/avatar.jpg" alt="My photo" style="border-radius: 50%;"/>
                 <!-- Masthead Heading-->
                 <h1 class="masthead-heading text-uppercase mb-0">Heloísa Saldanha</h1>
                 <!-- Icon Divider-->
@@ -147,109 +149,89 @@
             </div>
         </section>
         <!-- Contact Section-->
-        <section class="page-section" id="contact">
+        <section class="page-section">
             <div class="container">
-                <!-- Contact Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Contact Me</h2>
+
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0" id="skills">My skills</h2>
                 <!-- Icon Divider-->
                 <div class="divider-custom">
                     <div class="divider-custom-line"></div>
                     <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                     <div class="divider-custom-line"></div>
                 </div>
-                <!-- Contact Section Form-->
-                <div class="row justify-content-center">
-                    <div class="col-lg-8 col-xl-7">
-                        <!-- * * * * * * * * * * * * * * *-->
-                        <!-- * * SB Forms Contact Form * *-->
-                        <!-- * * * * * * * * * * * * * * *-->
-                        <!-- This form is pre-integrated with SB Forms.-->
-                        <!-- To make this form functional, sign up at-->
-                        <!-- https://startbootstrap.com/solution/contact-forms-->
-                        <!-- to get an API token!-->
-                        <!--<form id="contactForm" data-sb-form-api-token="API_TOKEN" method="POST" action="mailto:heloisa.saldanha@gmail.com">-->
-                            <!-- Name input
-                            <div class="form-floating mb-3">
-                                <input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
-                                <label for="name">Full name</label>
-                                <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
-                            </div> -->
-                            <!-- Email address input
-                            <div class="form-floating mb-3">
-                                <input class="form-control" id="email" type="email" placeholder="name@example.com" data-sb-validations="required,email" />
-                                <label for="email">Email address</label>
-                                <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
-                                <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
-                            </div>-->
-                            <!-- Phone number input
-                            <div class="form-floating mb-3">
-                                <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890" data-sb-validations="required" />
-                                <label for="phone">Phone number</label>
-                                <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
-                            </div>-->
-                            <!-- Message input
-                            <div class="form-floating mb-3">
-                                <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem" data-sb-validations="required"></textarea>
-                                <label for="message">Message</label>
-                                <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
-                            </div>-->
-                            <!-- Submit success message
-                            
-                             This is what your users will see when the form
-                         has successfully submitted
-                            <div class="d-none" id="submitSuccessMessage">
-                                <div class="text-center mb-3">
-                                    <div class="fw-bolder">Form submission successful!</div>
-                                </div>
-                            </div>
-                             Submit error message
-                            
-                             This is what your users will see when there is
-                             an error submitting the form
-                            <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
-                             Submit Button
-                            <button class="btn btn-primary btn-xl disabled" id="submitButton" type="submit">Send</button>
-                        </form>-->
-                    </div>
+
+                <div class="row justify-content-center images_logos">
+                    <img class="logos_languages" src="assets/img/logos/python.png" alt="Python Logo">
+                    <img class="logos_languages" src="assets/img/logos/django.png" alt="Django Logo">
+                    <img class="logos_languages" src="assets/img/logos/ruby.png" alt="Ruby Logo">
+                    <img class="logos_languages" src="assets/img/logos/rails.png" alt="Rails Logo">
+                    <img class="logos_languages" src="assets/img/logos/html5.png" alt="HTML5 Logo">
+                    <img class="logos_languages" src="assets/img/logos/css.png" alt="CSS3 Logo">
+                    <img class="logos_languages" src="assets/img/logos/bootstrap.png" alt="Bootstrap Logo">
+                    <img class="logos_languages" src="assets/img/logos/git.png" alt=""> 
                 </div>
+
             </div>
         </section>
-        <!-- Footer-->
-        <footer class="footer text-center">
+
+        <section class="page-section bg-primary text-white mb-0" id="experiences">
             <div class="container">
+                
+                <!-- Masthead Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-white">Experiences</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- Masthead Subheading-->
+                <p style="text-align: justify;">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas rem vitae ipsam quos possimus cumque ex? Quos quaerat quod, soluta amet minus aliquid cumque libero cum ad dignissimos beatae suscipit. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas rem vitae ipsam quos possimus cumque ex? Quos quaerat quod, soluta amet minus aliquid cumque libero cum ad dignissimos beatae suscipit. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas rem vitae ipsam quos possimus cumque ex? Quos quaerat quod, soluta amet minus aliquid cumque libero cum ad dignissimos beatae suscipit. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas rem vitae ipsam quos possimus cumque ex? Quos quaerat quod, soluta amet minus aliquid cumque libero cum ad dignissimos beatae suscipit. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas rem vitae ipsam quos possimus cumque ex? Quos quaerat quod, soluta amet minus aliquid cumque libero cum ad dignissimos beatae suscipit. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas rem vitae ipsam quos possimus cumque ex? Quos quaerat quod, soluta amet minus aliquid cumque libero cum ad dignissimos beatae suscipit. 
+                </p>
+            </div>
+        </section>
+        
+        <!-- Footer-->
+        <footer class="footer text-center" id="contact">
+            <div class="container">
+                <!-- Contact Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-white">Contact me</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+
                 <div class="row">
                     <!-- Footer Location-->
                     <div class="col-lg-4 mb-5 mb-lg-0">
                         <h4 class="text-uppercase mb-4">Location</h4>
                         <p class="lead mb-0">
-                            2215 John Daniel Drive
+                            Natal, RN
                             <br />
-                            Clark, MO 65243
+                            Brazil
                         </p>
                     </div>
                     <!-- Footer Social Icons-->
                     <div class="col-lg-4 mb-5 mb-lg-0">
-                        <h4 class="text-uppercase mb-4">Around the Web</h4>
-                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-facebook-f"></i></a>
-                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-twitter"></i></a>
-                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-linkedin-in"></i></a>
-                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-dribbble"></i></a>
+                        
                     </div>
                     <!-- Footer About Text-->
                     <div class="col-lg-4">
-                        <h4 class="text-uppercase mb-4">About Freelancer</h4>
-                        <p class="lead mb-0">
-                            Freelance is a free to use, MIT licensed Bootstrap theme created by
-                            <a href="http://startbootstrap.com">Start Bootstrap</a>
-                            .
-                        </p>
+                        <h4 class="text-uppercase mb-4">Around the Web</h4>
+                        <a class="btn btn-outline-light btn-social mx-1" href="mailto:heloisa.saldanha@gmail.com" target="_blank"><i class="fab fa-fw fa-google"></i></a>
+                        <a class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/heloisasaldanha/" target="_blank"><i class="fab fa-fw fa-linkedin-in"></i></a>
+                        <a class="btn btn-outline-light btn-social mx-1" href="https://github.com/heloisaldanha" target="_blank"><i class="fab fa-fw fa-github"></i></a>
+                        <a class="btn btn-outline-light btn-social mx-1" href="https://t.me/heloisass" target="_blank"><i class="fab fa-fw fa-telegram"></i></a>
                     </div>
                 </div>
             </div>
         </footer>
         <!-- Copyright Section-->
         <div class="copyright py-4 text-center text-white">
-            <div class="container"><small>Copyright &copy; Your Website 2021</small></div>
+            <div class="container"><small>Copyright &copy; Heloísa Saldanha 2021</small></div>
         </div>
         <!-- Portfolio Modals-->
         <!-- Portfolio Modal 1-->
@@ -262,7 +244,7 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Log Cabin</h2>
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Agendinha</h2>
                                     <!-- Icon Divider-->
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
@@ -270,7 +252,9 @@
                                         <div class="divider-custom-line"></div>
                                     </div>
                                     <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/cabin.png" alt="..." />
+                                    <a href="#" target="_blank">
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/agenda_rails.jpg" alt="..." />
+                                    </a>
                                     <!-- Portfolio Modal - Text-->
                                     <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
                                     <button class="btn btn-primary" href="#!" data-bs-dismiss="modal">
@@ -294,7 +278,7 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Tasty Cake</h2>
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Vinylog</h2>
                                     <!-- Icon Divider-->
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
@@ -302,7 +286,9 @@
                                         <div class="divider-custom-line"></div>
                                     </div>
                                     <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/cake.png" alt="..." />
+                                    <a href="#">
+                                        <img class="img-fluid rounded mb-5" src="assets/img/portfolio/vinylog_django.png" alt="..." />
+                                    </a>
                                     <!-- Portfolio Modal - Text-->
                                     <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
                                     <button class="btn btn-primary" href="#!" data-bs-dismiss="modal">
@@ -326,7 +312,7 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Circus Tent</h2>
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Minha Agenda</h2>
                                     <!-- Icon Divider-->
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
@@ -334,7 +320,9 @@
                                         <div class="divider-custom-line"></div>
                                     </div>
                                     <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/circus.png" alt="..." />
+                                    <a href="#">
+                                        <img class="img-fluid rounded mb-5" src="assets/img/portfolio/agenda_django.png" alt="..." />
+                                    </a>
                                     <!-- Portfolio Modal - Text-->
                                     <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
                                     <button class="btn btn-primary" href="#!" data-bs-dismiss="modal">
@@ -358,7 +346,7 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Controller</h2>
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Instagram Login Page</h2>
                                     <!-- Icon Divider-->
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
@@ -366,7 +354,9 @@
                                         <div class="divider-custom-line"></div>
                                     </div>
                                     <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/game.png" alt="..." />
+                                    <a href="https://raw.githubusercontent.com/heloisaldanha/CSS/main/Layout%20Instagram%20CSS/instagram.png">
+                                        <img class="img-fluid rounded mb-5" src="assets/img/portfolio/instagram.png" alt="..." />
+                                    </a>
                                     <!-- Portfolio Modal - Text-->
                                     <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
                                     <button class="btn btn-primary" href="#!" data-bs-dismiss="modal">
@@ -390,7 +380,7 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Locked Safe</h2>
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Agenda - Spring Test</h2>
                                     <!-- Icon Divider-->
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
@@ -398,7 +388,9 @@
                                         <div class="divider-custom-line"></div>
                                     </div>
                                     <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/safe.png" alt="..." />
+                                    <a href="#">
+                                        <img class="img-fluid rounded mb-5" src="assets/img/portfolio/agenda_spring.png" alt="..." />
+                                    </a>
                                     <!-- Portfolio Modal - Text-->
                                     <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
                                     <button class="btn btn-primary" href="#!" data-bs-dismiss="modal">
@@ -422,7 +414,7 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Submarine</h2>
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">CodeBlog</h2>
                                     <!-- Icon Divider-->
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
@@ -430,7 +422,9 @@
                                         <div class="divider-custom-line"></div>
                                     </div>
                                     <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/submarine.png" alt="..." />
+                                    <a href="#">
+                                        <img class="img-fluid rounded mb-5" src="assets/img/portfolio/blog_spring.jpg" alt="..." />
+                                    </a>
                                     <!-- Portfolio Modal - Text-->
                                     <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
                                     <button class="btn btn-primary" href="#!" data-bs-dismiss="modal">

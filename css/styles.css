@@ -11054,3 +11054,17 @@ html {
 .copyright {
   background-color: #1a252f;
 }
+
+.images_logos{
+  align-items: center;
+  
+  
+}
+
+.logos_languages{
+  height: 70px;
+  width: 100px;
+  align-items: center;
+
+  
+}

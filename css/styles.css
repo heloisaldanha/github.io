@@ -220,10 +220,6 @@ a:not([href]):not([class]), a:not([href]):not([class]):hover {
   text-decoration: none;
 }
 
-.ingles{
-  color: rgb(220, 224, 224);
-}
-
 pre,
 code,
 kbd,
